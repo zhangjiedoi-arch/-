@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1e2f3a4b5c647758697708192a3c040, type: 3}
+  m_Name: Meta Upgrade Graph
+  m_EditorClassIdentifier: 
+  nodes:
+  - nodeId: health
+    stat: 0
+    displayName: "\u751F\u547D"
+    maxLevel: 5
+    bonusPerLevel: 10
+    pointCostPerLevel: 1
+    graphPosition: {x: 0, y: 0}
+    orbitIndex: 0
+    prerequisiteNodeIds: []
+  - nodeId: armor
+    stat: 1
+    displayName: "\u9632\u5FA1"
+    maxLevel: 5
+    bonusPerLevel: 1
+    pointCostPerLevel: 1
+    graphPosition: {x: 0, y: 0}
+    orbitIndex: 1
+    prerequisiteNodeIds:
+    - health
+  - nodeId: damage
+    stat: 3
+    displayName: "\u4F24\u5BB3"
+    maxLevel: 5
+    bonusPerLevel: 0.05
+    pointCostPerLevel: 1
+    graphPosition: {x: 0, y: 0}
+    orbitIndex: 2
+    prerequisiteNodeIds:
+    - speed
+    - armor
+  - nodeId: knockback
+    stat: 4
+    displayName: "\u51FB\u9000"
+    maxLevel: 5
+    bonusPerLevel: 0.08
+    pointCostPerLevel: 1
+    graphPosition: {x: 0, y: 0}
+    orbitIndex: 3
+    prerequisiteNodeIds:
+    - damage
+  - nodeId: speed
+    stat: 2
+    displayName: "\u901F\u5EA6"
+    maxLevel: 5
+    bonusPerLevel: 0.03
+    pointCostPerLevel: 1
+    graphPosition: {x: 0, y: 0}
+    orbitIndex: 4
+    prerequisiteNodeIds: []
+  defaultCharacterBlueprint: {fileID: 11400000, guid: 138b085873865480984b6ebcd8312fae, type: 2}
+  centerCircleSprite: {fileID: 21300000, guid: c5164ffb826f3469db584349ea8fb550, type: 3}
+  orbitRadius: 260
+  centerPortraitSize: 168
+  startingPoints: 5
+  pointsPerLevelClear: 2
+  pointsPerRun: 1
+  expPerMetaPoint: 20

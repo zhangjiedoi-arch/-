@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7d8e9f0a1b243658697708192a3c021, type: 3}
+  m_Name: Shop Catalog
+  m_EditorClassIdentifier: 
+  characters:
+  - blueprint: {fileID: 11400000, guid: 138b085873865480984b6ebcd8312fae, type: 2}
+    price: 0
+  - blueprint: {fileID: 11400000, guid: 02309cd829b224b648ed3c3df7c86e6c, type: 2}
+    price: 500
+  - blueprint: {fileID: 11400000, guid: afa99349eb3ad4e2aa7701749ec87eea, type: 2}
+    price: 800
+  abilities:
+  - abilityPrefab: {fileID: 7378740072262091319, guid: 83d30b9611c244f46b7a4bfc51d0276c, type: 3}
+    price: 200
+  - abilityPrefab: {fileID: 7378740072262091319, guid: ad7ae2010ff3f409aae00371b1f7d578, type: 3}
+    price: 200
+  - abilityPrefab: {fileID: 7378740072262091319, guid: 48e31f1d1283b43748c060fbc24e3df8, type: 3}
+    price: 200
+  - abilityPrefab: {fileID: 7378740072262091319, guid: 239414c0d2c944c0d9acb1762a720983, type: 3}
+    price: 350
+  - abilityPrefab: {fileID: 7378740072262091319, guid: 710069dc0dc9445e5ae3f9ef5a764abb, type: 3}
+    price: 350
+  - abilityPrefab: {fileID: 7378740072262091319, guid: e2f3d4c5b6a747758697708192a3b700, type: 3}
+    price: 350
+  - abilityPrefab: {fileID: 7378740072262091319, guid: b8c7d6e5f4a3436586970778192a3b5f, type: 3}
+    price: 350
+  - abilityPrefab: {fileID: 7378740072262091319, guid: 84883138023ad47dea183cc19b373d2b, type: 3}
+    price: 350
+  - abilityPrefab: {fileID: 7378740072262091319, guid: 1f4699d7a46c44170930119aed6fe806, type: 3}
+    price: 350
+  - abilityPrefab: {fileID: 7378740072262091319, guid: f4a5b6c7d8e947758697708192a3b813, type: 3}
+    price: 600
+  - abilityPrefab: {fileID: 7378740072262091319, guid: a1b2c3d4e5f647758697708192a3c007, type: 3}
+    price: 600
+  - abilityPrefab: {fileID: 7378740072262091319, guid: a1b2c3d4e5f647758697708192a3c005, type: 3}
+    price: 600
